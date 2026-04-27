@@ -1,0 +1,73 @@
+.page {
+  min-height: 100vh;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 420px;
+}
+
+.header {
+  margin-bottom: 20px;
+  color: #e2e8f0;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #cbd5f5;
+}
+
+.select {
+  padding: 12px;
+  border-radius: 8px;
+  background: #334155;
+  color: #fff;
+  border: none;
+}
+
+.uploadBox {
+  border: 2px dashed #475569;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  background: #0f172a;
+  color: #94a3b8;
+  transition: all 0.3s ease;
+}
+
+.uploadBox:hover {
+  border-color: #6366f1;
+  color: #e2e8f0;
+}
+
+.button {
+  padding: 14px;
+  border-radius: 10px;
+  background: #6366f1;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #4f46e5;
+}

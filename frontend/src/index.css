@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
